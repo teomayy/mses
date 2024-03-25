@@ -1,0 +1,189 @@
+body {
+	padding: 200px;
+	text-align: center;
+	font-family: 'IBM Plex Mono';
+	font-size: 22px;
+	background-color: #003948;
+	display: block;
+	margin: 0;
+	color: #43c4e5;
+}
+.top-container {
+	display: flex;
+	flex-direction: row;
+}
+.hero {
+	background-size: cover;
+	background-image: url(img/tsd97dps46m1vlmm1c8ec16ebzxus8sr.jpg);
+	height: 680px;
+	width: 1150px;
+	background-repeat: no-repeat;
+}
+.logo-img {
+	width: 250px;
+	height: 340px;
+}
+.diz-img {
+	width: 100%;
+}
+.top-logos {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+.diz {
+	position: absolute;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	background-color: #b4deed;
+	z-index: 1;
+	top: 580px;
+	right: 300px;
+}
+
+.bottom-container {
+	display: flex;
+}
+.info {
+	text-align: center;
+	width: 1120px;
+}
+
+.name-of-ses {
+	color: #43c4e5;
+}
+
+.bottom-img {
+	width: 300px;
+	overflow: hidden;
+}
+
+.img-dizen {
+	height: 100%;
+}
+
+.bosh-vrach {
+	display: flex;
+	justify-content: center;
+}
+.info-vrach {
+	margin-right: 50px;
+}
+
+.full-info {
+	text-align: left;
+}
+
+.contacts {
+	margin-top: 200px;
+}
+.contacts-inner {
+	display: flex;
+	justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 413px) {
+	.top-container {
+		display: flex;
+		flex-direction: row;
+	}
+
+	body {
+		padding: 0;
+		text-align: center;
+		font-family: 'IBM Plex Mono';
+		font-size: 10px;
+		background-color: #003948;
+		display: block;
+		margin: 0;
+		color: #43c4e5;
+	}
+	.hero {
+		display: none;
+	}
+	.top-logos {
+		flex-direction: row;
+	}
+	.logo-img {
+		width: 50px;
+		height: 50px;
+	}
+	.diz-img {
+		width: 70px;
+	}
+	.diz {
+		position: relative;
+		text-align: center;
+		width: 30px;
+		height: 30px;
+		background-color: #b4deed;
+		z-index: 1;
+	}
+	.bottom-img {
+		display: none;
+	}
+	.bosh-vrach {
+		margin-left: 30px;
+	}
+	.contacts {
+		margin-top: 100px;
+		padding: 5px;
+	}
+
+	.contacts-inner {
+		margin-left: 5px;
+	}
+}
+
+@media (min-width: 414px) and (max-width: 610px) {
+	body {
+		padding: 0;
+		font-size: 10px;
+	}
+	.top-container {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.hero {
+		height: 300px;
+	}
+	.top-logos {
+		width: 200px;
+		overflow: hidden;
+		justify-content: space-between;
+	}
+	.logo-img {
+		width: 100%;
+		height: 100%;
+	}
+	.diz {
+		width: 100%;
+		height: 70px;
+		position: static;
+	}
+}
+
+@media only screen and (min-width: 611px) {
+	body {
+		padding: 0;
+		font-size: 15px;
+	}
+	.hero {
+		height: 600px;
+	}
+	.top-logos {
+		width: 200px;
+		overflow: hidden;
+		justify-content: space-between;
+	}
+	.logo-img {
+		width: 100%;
+		height: 100%;
+	}
+	.diz {
+		width: 100%;
+		height: 140px;
+		position: static;
+	}
+}
